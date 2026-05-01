@@ -80,7 +80,7 @@ window.onload = () => {
     context.imageSmoothingEnabled = false;
 
     document.addEventListener("keydown", onKey);
-    setInterval(spawnPipes, 1800);
+    setInterval(spawnPipes, 2500);
 
     // Consolidated mouse/touch handler
     game.addEventListener("mousedown", handleAction);
