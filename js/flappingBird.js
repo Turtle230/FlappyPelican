@@ -51,7 +51,7 @@ let jump = -7;
 
 let pipes = [];
 let pipeWidth = 64;
-let pipeGap = 150;
+let pipeGap = 250;
 let pipeSpeed = -2;
 
 let baseY = gameHeight - 100;
