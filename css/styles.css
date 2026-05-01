@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #1e1e1e; /* Dark background for focus */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+canvas {
+    background-color: #3cbcfc;
+}
+
+#game {
+    /* Maintain aspect ratio while filling height */
+    max-width: 100%;
+    max-height: 100vh;
+    height: 95vh; /* Fills most of the page */
+    width: auto;
+    image-rendering: pixelated; /* Keeps the pixel art sharp */
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
